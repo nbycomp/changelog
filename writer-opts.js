@@ -42,7 +42,7 @@ var types = {
   other: "Unclassified",
 }
 
-var ignoreTypes = ["style", "chore", "autogen", "ci"]
+var ignoreTypes = ["style", "chore", "autogen", "ci", "other", "test", "docs"]
 
 function getGitTagMessage(tag) {
   if (!tag) {
